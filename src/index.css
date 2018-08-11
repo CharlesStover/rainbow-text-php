@@ -1,0 +1,74 @@
+#light,
+#light-slider > div {
+	width: 50%;
+}
+
+#light-slider {
+	display: flex;
+}
+
+	#light-slider > div {
+		min-height: 1em;
+		text-align: center;
+	}
+
+		#light-slider > div > div {
+			border: 1px solid #808080;
+			font-family: "Roboto", sans-serif;
+			font-weight: bold;
+			margin: 0 auto;
+			line-height: 3em;
+			height: 3em;
+			width: 3em;
+		}
+
+blockquote {
+	border-style: solid;
+	border-width: 1px;
+	font-family: "Droid Serif", serif;
+	font-weight: bold;
+	letter-spacing: 1px;
+	line-height: 2em;
+	margin: 0.5em 2em 1em 2em;
+}
+
+form > div {
+	padding: 1em 2em;
+}
+
+h3 {
+	text-align: left;
+	text-indent: 1em;
+}
+
+label {
+	display: block;
+	font-family: "Roboto Condensed", sans-serif;
+	text-align: left;
+}
+
+	label:after {
+		content: ":";
+	}
+
+	label:not(:first-child) {
+		margin-top: 2em;
+	}
+
+	label + textarea {
+		margin-top: 0.5em;
+	}
+
+textarea {
+	box-sizing: border-box;
+	margin: 0 auto;
+	width: 100%;
+}
+
+#your-text div {
+	padding: 0 2em;
+}
+
+#saturation {
+	width: 100%;
+}
